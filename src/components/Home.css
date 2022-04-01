@@ -1,3 +1,33 @@
+.outterComponentContainer {
+    display: flex;
+    justify-content: center;
+}
+.innerComponentContainer{
+    display: flex;
+    justify-content: center;
+    width:800px;
+    /* border: solid black 2px; */
+}
 .header {
     color: black;
+    font-size: 3rem;
+}
+.introContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+.textContainer {
+    width: 400px;
+    padding: 2rem;
+
+}
+
+.introText {
+    font-size:1.5rem;
+}
+.profilePic {
+    width: 24rem;
+    border-radius: 20%;
+    margin: 2rem;
 }
