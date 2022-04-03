@@ -4,8 +4,8 @@ import "./Home.css";
 
 const Home = () => {
     return <>
-        <div className="outterComponentContainer">
-            <div className="innerComponentContainer">
+        <div className="homebg">
+            <div className="componentContainer">
                 <div className="introContainer">
                     <div className="imgContainer">
                         <img src={headProfile} className="profilePic" alt="Kriselda's photo" />
