@@ -1,0 +1,27 @@
+.projectsbg {
+    background: url("../images/Ideas.png");
+    background-size: 100vw 100vh;
+    position: absolute;
+    top: 3rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.projectsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.innerProjectCard {
+    display: flex;
+}
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(179, 200, 254, 0.8);
+    width: 60vw;
+}
+
+.thumbnail {
+    width: 20vw;
+}
