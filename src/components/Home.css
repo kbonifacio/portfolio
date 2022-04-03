@@ -1,12 +1,23 @@
+body {
+    background-image: url("../images/Home.png");
+    background-size: 83vw 100vh;
+    background-position: bottom no-repeat;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
 .outterComponentContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .innerComponentContainer{
     display: flex;
     justify-content: center;
     width:800px;
-    /* border: solid black 2px; */
+    background: rgba(239, 239, 239, 0.9);
+    border: solid white 4px;
+    border-radius: 10%;
+    padding: 1.5rem;
 }
 .header {
     color: black;
