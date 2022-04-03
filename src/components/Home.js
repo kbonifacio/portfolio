@@ -1,10 +1,10 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import headProfile from "../images/headProfile.png";
 import "./Home.css";
 
 const Home = () => {
     return <>
-        
         <div className="homebg">
             <div className="componentContainer">
                 <div className="introContainer">

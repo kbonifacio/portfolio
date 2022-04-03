@@ -2,7 +2,8 @@ import React from "react";
 import { Routes, Route, NavLink } from "react-router-dom"
 import "../style.css"
 import {
-    Home
+    Home,
+    Projects
 } from "./index"
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         </div>
         <Routes>
             <Route path="/" exact element={ <Home/>}/>
-            <Route path="/projects" />
+            <Route path="/projects" exact element={ <Projects/>} />
         </Routes>
     </>)
 }
