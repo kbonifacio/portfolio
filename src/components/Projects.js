@@ -79,7 +79,7 @@ const Projects = () => {
                     <div className="subheader"><i>A website for the sale of personal goods.</i></div>
                     <div className="innerProjectCard">
                         <div className="thumbnailContainer">
-                        <iframe width="500" height="315" src="https://www.youtube.com/embed/CuseI8nhMxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="500" height="315" src="https://www.youtube.com/embed/wGtyDJiNSmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div className="textContainer">
                             <p><b>Role:</b> Front-end developer</p>
@@ -96,6 +96,11 @@ const Projects = () => {
                         <img src={ST03} className="projectImages" alt="StrangersThings login page" />
                         <img src={ST04} className="projectImages" alt="StrangersThings user dashboard page" />
                     </div>
+                </div>
+            </div>
+            <div className="projectsContainer">
+                <div className="endProjectCard">
+                    <p className="title"><b>New projects coming soon!</b></p>
                 </div>
             </div>
         </div>
