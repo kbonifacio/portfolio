@@ -17,10 +17,21 @@
 .componentContainer{
     display: flex;
     justify-content: center;
-    width:800px;
-    background: rgba(248, 254, 255, 0.6);
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
     /* border: solid rgb(30, 98, 157) 4px; */
     padding: 1.5rem;
+    
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+.name {
+    font-size: 3rem;
+    animation: fadeIn;
+    animation-duration: 2s;
+
+
 }
 .header {
     color: black;
@@ -29,6 +40,7 @@
 .introContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 .textContainer {
@@ -42,6 +54,6 @@
 }
 .profilePic {
     width: 24rem;
-    border-radius: 10%;
+    border-radius: 50%;
     margin: 3rem;
 }

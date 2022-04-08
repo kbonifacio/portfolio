@@ -5,25 +5,21 @@ html {
     font-size: 14px;
 }
 .headerContainer {
-    background-color: rgb(0, 0, 0);
-    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 .headerLinks{
     font-size: 1.5rem;
-    color: white;
+    color: rgb(149, 147, 147);
     text-decoration: none;
-    padding-left: 12px;
+    padding-left: 1.1rem;
     margin: 10px;
 }
 .headerLinks:hover{
-    font-size: 1.5rem;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 10px;
-    padding-left: 10px;
-    border-left: solid rgb(255, 255, 255) 2px;
-
 }
