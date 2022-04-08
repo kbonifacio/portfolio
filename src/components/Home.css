@@ -1,6 +1,6 @@
 .homebg {
-    background-image: url("../images/Home.png");
-    background-size: 100vw 93vh;
+    /* background-image: url("../images/Home.png");
+    background-color: rgb(255, 255, 255);
     background-position: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -9,7 +9,7 @@
     top: 3rem;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +18,8 @@
     display: flex;
     justify-content: center;
     width:800px;
-    background: rgba(239, 239, 239, 0.9);
-    border: solid white 4px;
+    background: rgba(248, 254, 255, 0.6);
+    /* border: solid rgb(30, 98, 157) 4px; */
     padding: 1.5rem;
 }
 .header {
@@ -42,6 +42,6 @@
 }
 .profilePic {
     width: 24rem;
-    border-radius: 20%;
-    margin: 2rem;
+    border-radius: 10%;
+    margin: 3rem;
 }
