@@ -10,8 +10,8 @@ const App = () => {
     return (<>
         <div className="headerContainer">
             <NavLink to="/" className="headerLinks">Home</NavLink>
-            <NavLink to="/projects" className="headerLinks">Projects</NavLink>
             <NavLink to="/aboutme" className="headerLinks">About Me</NavLink>
+            <NavLink to="/projects" className="headerLinks">Projects</NavLink>
             <NavLink to="/contact" className="headerLinks">Contact</NavLink>
         </div>
         <Routes>
