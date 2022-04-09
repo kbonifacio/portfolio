@@ -1,0 +1,28 @@
+.container { 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+    border: solid black 2px;
+}
+
+.contactCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 70vh;
+    border: solid red 2px;
+}
+
+.logo2 {
+    width: 30%;
+    height: 30%;
+    /* animation: fadeInUp;
+    animation-duration: 3s; */
+    transition: 0.3s;
+}
+
+.logo2:hover {
+    transform: scale(3);
+
+}
