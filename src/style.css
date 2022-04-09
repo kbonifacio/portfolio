@@ -5,7 +5,10 @@ html {
     font-size: 14px;
 }
 .headerContainer {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(30deg, pink, rgb(139, 137, 243));
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -13,7 +16,7 @@ html {
 }
 .headerLinks{
     font-size: 1.5rem;
-    color: rgb(149, 147, 147);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding-left: 1.1rem;
     margin: 10px;
