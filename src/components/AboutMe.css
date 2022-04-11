@@ -1,0 +1,35 @@
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+.subhead {
+    display: flex;
+    justify-content: center;
+}
+.timelineR {
+    overflow: scroll;
+    
+}
+
+.year {
+    /* border-left: solid black 3px; */
+    /* border-bottom: solid black 3px; */
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+.event {
+    padding-bottom: 1rem;
+}
+
+p {
+    /* border-left: solid black 3px; */
+    padding-left: 3rem;
+    padding-top: 1rem;
+    width: 50vw;
+}

@@ -4,7 +4,8 @@ import "../style.css"
 import {
     Home,
     Projects,
-    Contact
+    Contact, 
+    AboutMe
 } from "./index"
 
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
         <Routes>
             <Route path="/" exact element={<Home/>}/>
             <Route path="/projects" exact element={<Projects/>} />
-            <Route path="/contact" exact element = {<Contact />} />
+            <Route path="/contact" exact element={<Contact />} />
+            <Route path="/aboutme" exact element={<AboutMe />} />
         </Routes>
     </>)
 }
