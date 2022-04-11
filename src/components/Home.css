@@ -49,3 +49,13 @@
     border-radius: 50%;
     margin: 3rem;
 }
+.contactLinks {
+    width: 4rem;
+    height: 4rem;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

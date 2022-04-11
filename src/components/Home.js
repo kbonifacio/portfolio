@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import headProfile from "../images/headProfile.png";
+import gitHub from "../images/gitHub_logo.png";
+import linkedIn from "../images/linkedIn_logo.png";
+import outlook from "../images/outlook_logo.png";
 import "./Home.css";
 import "animate.css";
 
@@ -9,6 +12,11 @@ const Home = () => {
         <div className="homebg">
             <div className="componentContainer">
                 <div className="introContainer">
+                    <div className="contactContainer">
+                        <a href="https://www.linkedin.com/in/kbonifacio/"><img src={linkedIn} alt="linkedIn logo" className="contactLinks" /></a>
+                        <a href="https://github.com/kbonifacio"><img src={gitHub} alt="linkedIn logo" className="contactLinks" /></a>
+                        <a href="mailto:ksda.bonifacio@gmail.com"><img src={outlook} alt="outlook logo" className="contactLinks"/></a>
+                    </div>
                     <div className="imgContainer">
                         <img src={headProfile} className="profilePic" alt="Kriselda's photo" />
                     </div>
