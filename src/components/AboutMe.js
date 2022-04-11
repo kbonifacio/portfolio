@@ -68,7 +68,7 @@ const AboutMe = () => {
                     <div>
                         <p>February: Completed 26-web developement program through FullStack Academy</p>
                         <p><b>What I learned:</b> I am <i>capable.</i> </p>
-                        <p>I discovered that I am capable. I struggled, persevered, and gained the knowledge required to develop an application from the ground up. Despite obtaining a degree in a different STEM major, I was able to apply the soft skills and study skills that I had learned throughout my college experience to be successful within the program. I experienced what it was like to work alongside other developers and develop and test code. I learned JavaScript, HTML5, CSS3, Angular, React, Node.JS, PostgreSQL, Single Page Application methodology, Agile methodology, and more. </p>
+                        <p>I discovered that I am capable. I struggled, persevered, and gained the knowledge required to develop an application from the ground up. Despite obtaining a degree in a different STEM major, I was able to apply the soft skills and study skills that I had learned throughout my college experience to be successful within the program. I experienced what it was like to work alongside other developers and develop and test code. I learned JavaScript, HTML5, CSS3, Angular, React, Node.JS, PostgreSQL, Single Page Application methodology, Agile methodology, Git, Netlify, Heroku, and more. </p>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,10 @@ import {
     Home,
     Projects,
     Contact, 
-    AboutMe
+    AboutMe,
+    Porto3000,
+    FitnessTrackr, 
+    StrangersThings
 } from "./index"
 
 const App = () => {
@@ -21,6 +24,9 @@ const App = () => {
             <Route path="/projects" exact element={<Projects/>} />
             <Route path="/contact" exact element={<Contact />} />
             <Route path="/aboutme" exact element={<AboutMe />} />
+            <Route path="/projects/Porto3000" exact element={<Porto3000 />} />
+            <Route path="/projects/StrangersThings" exact element={<StrangersThings />} />
+            <Route path="/projects/FitnessTrackr" exact element={<FitnessTrackr />} />
         </Routes>
     </>)
 }
