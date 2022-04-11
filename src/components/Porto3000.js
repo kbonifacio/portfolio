@@ -18,13 +18,13 @@ const Porto3000 = () => {
                             <iframe width="500" height="315" src="https://www.youtube.com/embed/KMA3AOkHswI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div className="textContainer">
-                            <p><b>Role:</b> Full stack developer</p>
-                            <p><b>Team Size:</b> 4 developers</p>
-                            <p><b>Responsibility:</b> Overall UX/UI of website</p>
-                            <p><b>Additional Tasks:</b> Integration of Stripe API, creation of server routes and initial seed data. Completed duties as rotational stand up leader, task manager, and maintained project documentations. </p>
-                            <p className="projectStack"><b>Stack: </b> Javascript, HTML5, CSS3, React, Node.JS, Express, PostgreSQL </p>
-                            <p><b>GitHub:</b> <a href="https://github.com/hoguer/porto3000" className="cardLink" target="_blank">Porto3000</a> </p>
-                            <p><b>Deployment:</b> <a href="http://porto3000.herokuapp.com" className="cardLink" target="_blank">Heroku</a></p>
+                            <p className="projectText"><b>Role:</b> Full stack developer</p>
+                            <p className="projectText"><b>Team Size:</b> 4 developers</p>
+                            <p className="projectText"><b>Responsibility:</b> Overall UX/UI of website</p>
+                            <p className="projectText"><b>Additional Tasks:</b> Integration of Stripe API, creation of server routes and initial seed data. Completed duties as rotational stand up leader, task manager, and maintained project documentations. </p>
+                            <p className="projectText"><b>Stack: </b> Javascript, HTML5, CSS3, React, Node.JS, Express, PostgreSQL </p>
+                            <p className="projectText"><b>GitHub:</b> <a href="https://github.com/hoguer/porto3000" className="cardLink" target="_blank">Porto3000</a> </p>
+                            <p className="projectText"><b>Deployment:</b> <a href="http://porto3000.herokuapp.com" className="cardLink" target="_blank">Heroku</a></p>
                         </div>
                     </div>
                     <div className="images"> 

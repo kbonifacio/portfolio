@@ -52,21 +52,21 @@
 
 .images {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 
 }
 
+.projectText{
+    padding: 0.5rem;
+}
+
 .projectImages {
-    width: 10vw;
+    width: 85vw;
     margin: 1.5rem;
 }
 
-.projectImages:hover {
-    transform: scale(3.3);
-    transition: 0.25s;
-    
-}
 .cardContainer {
     display: flex;
     flex-direction: row;
