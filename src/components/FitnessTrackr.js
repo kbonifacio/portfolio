@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
 import "./Projects.css";
 import FT01 from "../images/FitnessTrackr/FT01.png";
 import FT02 from "../images/FitnessTrackr/FT02.png";
@@ -10,6 +11,7 @@ const FitnessTrackr = () => {
     return <>
         <div className="projectsContainer">
             <div className="projectCard">
+                <NavLink to="/projects" className="backButton">Return to All Projects</NavLink>
                 <p className="title"><b>Fitness Trackr</b></p>
                 <div className="subheader"><i>A health application used to guide and create workout exercises</i></div>
                 <div className="innerProjectCard">

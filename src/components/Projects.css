@@ -19,6 +19,7 @@
 .title {
     padding-left: 1.5rem;
     font-size: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 0;
 }
 .subheader{
@@ -59,7 +60,8 @@
 }
 
 .projectText{
-    padding: 0.5rem;
+    padding: 0.6rem;
+
 }
 
 .projectImages {
@@ -81,9 +83,24 @@
 .card {
     width: 300px;
     height: 200px;
+    border-radius: 10%;
 }
 
 .card:hover {
     animation: pulse;
     animation-duration: 1.5s;
+}
+.backButton {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    width: 14rem;
+    height: 1.4rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border-left: solid white 2px;
+}
+
+.backButton:hover {
+    border-left: solid rgb(248, 190, 114) 2px;
 }

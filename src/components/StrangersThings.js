@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom"
 import "./Projects.css";
 import ST01 from "../images/StrangersThings/ST01.png";
 import ST02 from "../images/StrangersThings/ST02.png";
@@ -6,10 +7,10 @@ import ST03 from "../images/StrangersThings/ST03.png";
 import ST04 from "../images/StrangersThings/ST04.png"
 
 const StrangersThings = () => {
-    return <>
-                    
-                    <div className="projectsContainer">
+    return <>      
+            <div className="projectsContainer">
                 <div className="projectCard">
+                    <NavLink to="/projects" className="backButton">Return to All Projects</NavLink>
                     <p className="title"><b>Stranger's Things</b></p>
                     <div className="subheader"><i>A website for the sale of personal goods.</i></div>
                     <div className="innerProjectCard">
