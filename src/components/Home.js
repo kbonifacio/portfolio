@@ -22,8 +22,7 @@ const Home = () => {
                     </div>
                     <div className="textContainer">
                         <p className="header">Hi, I'm <NavLink to="/aboutme" className="kriselda">Kriselda.</NavLink></p>
-                        <p className="introText">I am a software engineer with a bachelors of science in Biochemistry. I love diving into the unknown and learning new skills that could one day help the people around me.  </p>
-                        <p className="introText">Here you will find a record of my journey so far.</p>
+                        <p className="introText">I am a web developer and technical writer with a love for science.  I love diving into the unknown and learning new skills that could one day help the people around me.  </p>
                     </div>
                 </div>
             </div>

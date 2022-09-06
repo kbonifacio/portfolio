@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac4993d2.css",
+    "main.js": "/static/js/main.1a14c9a9.js",
+    "static/media/P02.png": "/static/media/P02.e0af0ba3023578f6752c.png",
+    "static/media/P06.png": "/static/media/P06.2c0ea7d85d2240f5fabd.png",
+    "static/media/P04.png": "/static/media/P04.593c7bb69f86b974a829.png",
+    "static/media/FT03.png": "/static/media/FT03.5202245d7c3dc329d88b.png",
+    "static/media/P05.png": "/static/media/P05.a34fa7946d47ead37dd4.png",
+    "static/media/P01.png": "/static/media/P01.ed224e54c529d68c9dd7.png",
+    "static/media/FT02.png": "/static/media/FT02.79ff8f4355b84029b005.png",
+    "static/media/FT05.png": "/static/media/FT05.254beb66645a9ef8d8f1.png",
+    "static/media/FT04.png": "/static/media/FT04.20c240e8fff1015974c7.png",
+    "static/media/P03.png": "/static/media/P03.c9bd7d2675e72425a41a.png",
+    "static/media/FT01.png": "/static/media/FT01.f37147df16c9a044c2d1.png",
+    "static/media/headProfile.png": "/static/media/headProfile.bf142f1ebe999fc2297e.png",
+    "static/media/ST03.png": "/static/media/ST03.18da7bc49cecd6da67c5.png",
+    "static/media/ST01.png": "/static/media/ST01.1457aa43a6f463c035b2.png",
+    "static/media/ST02.png": "/static/media/ST02.da35be05cc9dadf24d1d.png",
+    "static/media/ST04.png": "/static/media/ST04.b4e66e89531e7dc6b0c8.png",
+    "static/media/outlook_logo.png": "/static/media/outlook_logo.e61530249bbefdac0b8f.png",
+    "static/media/linkedIn_logo.png": "/static/media/linkedIn_logo.88fbe2776531db59b2da.png",
+    "index.html": "/index.html",
+    "main.ac4993d2.css.map": "/static/css/main.ac4993d2.css.map",
+    "main.1a14c9a9.js.map": "/static/js/main.1a14c9a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac4993d2.css",
+    "static/js/main.1a14c9a9.js"
+  ]
+}
